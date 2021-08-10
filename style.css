@@ -1,6 +1,10 @@
 
 /* GENERAL */ 
 
+html,body{
+    font-family: Raleway, sans-serif;
+}
+
 .flexCentre {
 
     display: flex;
@@ -21,8 +25,51 @@
     align-items: center;
 }
 
+
+
+.sizeNav {
+
+    height: 100px;;
+}
+
+.sizeLien {
+
+    width: 140px;
+    height: 99px;
+}
+
 .sizeLiens {
 
     width: 45%;
     
+}
+
+ul{
+    list-style-type: none;
+ }
+
+.decorationNone{
+text-decoration: none ;
+}
+
+.colorLiens13 {
+    color: blue;
+}
+
+.colorLiens2 {
+    color: black;
+}
+
+.bordureNav{
+    border-top: 1px solid blue;
+}
+
+.bordureNav23{
+    border-top: 1px solid transparent;
+}
+
+
+.marginLogo {
+
+    margin-top: 7px;
 }
