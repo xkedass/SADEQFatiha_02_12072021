@@ -326,13 +326,14 @@ text-decoration: none ;
     border-radius: 20px;
   }
   .cubePopulaires:hover {
-    cursor: pointer;
+    cursor: pointer ;
     transform: scale(1.05);
   }
   .cubeDetailsPopulaires {
     width: 60%;
     padding-left: 5%;
   }
+
   .imgPopulaires1 {
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
