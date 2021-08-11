@@ -2,7 +2,7 @@
 /* GENERAL */ 
 
 html,body{
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
 }
 
 .flexCentre {
@@ -25,6 +25,36 @@ html,body{
     align-items: center;
 }
 
+.flexColumnCentre {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.flexColumnAround {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.flexColumnBetween{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.texteGras {
+    font-weight: bold;
+}
 
 
 .sizeNav {
@@ -35,7 +65,7 @@ html,body{
 .sizeLien {
 
     width: 140px;
-    height: 99px;
+    height: 100px;
 }
 
 .sizeLiens {
@@ -52,8 +82,12 @@ ul{
 text-decoration: none ;
 }
 
+.bordureNone{
+    border : none;
+}
+
 .colorLiens13 {
-    color: blue;
+    color: #0065fc;
 }
 
 .colorLiens2 {
@@ -61,7 +95,7 @@ text-decoration: none ;
 }
 
 .bordureNav{
-    border-top: 1px solid blue;
+    border-top: 1px solid #0065fc;
 }
 
 .bordureNav23{
@@ -72,4 +106,255 @@ text-decoration: none ;
 .marginLogo {
 
     margin-top: 7px;
+}
+
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border : #f2f2f2 0.5px solid;
+    
+}
+
+.paddingSearch{
+    padding-left: 20px;
+
+}
+
+.iconSize {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.recherche {
+
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.backGris {
+
+    background-color: #f2f2f2;
+}
+
+.backBleu{
+
+    background-color: #0065fc;
+}
+
+.colorBleu{
+
+    color: #0065fc;
+}
+
+.buttonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.marginFiltre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.marginFiltreTitre{
+
+    margin-right: 20px;
+}
+
+
+.filtreTexteIcon{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreTexteIcon:hover >.filtreTexte{
+    color: #0065fc ;
+
+}
+
+
+.filtreTexteIcon:hover >.filtreIcon{
+    color: white ;
+    background-color: #0065fc ;
+
+};
+
+.filtreTexte{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+
+.filtreIcon{
+    border-radius: 25px;
+    margin-left: -2px;;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+/* INFO ICONE */
+.info {
+    display: flex;
+    align-items: center;
+  }
+  .parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+  }
+  /* HEBERGEMENTS */
+  .sizeHebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .sizePopulaires {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .blocHebergements {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bloc1 {
+    margin-bottom: 10px;
+  }
+  .bloc2 {
+    margin-top: 10px;
+  }
+  .cubeHebergements {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+  }
+  .cubeHebergements:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .cubeDetailsHebergements {
+    width: 90%;
+  }
+  .imgHebergements1 {
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imgHebergements2 {
+    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imgHebergements3 {
+    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imgHebergements4 {
+    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imgHebergements5 {
+    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .imgHebergements6 {
+    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  /* Populaires */
+  
+  .blocPopulaires {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .blocPopulaires12 {
+    margin-bottom: 22px;
+  }
+  .cubePopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+  }
+  .cubePopulaires:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .cubeDetailsPopulaires {
+    width: 60%;
+    padding-left: 5%;
+  }
+  .imgPopulaires1 {
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imgPopulaires2 {
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+  }
+  .imgPopulaires3 {
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px; 
+
 }
