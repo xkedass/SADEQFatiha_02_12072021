@@ -100,8 +100,15 @@ text-decoration: none ;
     color: black;
 }
 
-.bordureNav{
+.bordureNav:hover {
     border-top: 1px solid #0065fc;
+    cursor: pointer;
+}
+
+
+.bordureNav:hover > a {
+  color : #0065fc;
+  
 }
 
 .bordureNav23{
@@ -165,6 +172,12 @@ text-decoration: none ;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
 
+}
+
+.buttonSearch:hover{
+  color: #0065fc;
+  background-color: #f2f2f2;
+  
 }
 
 .filtre {
@@ -480,51 +493,4 @@ text-decoration: none ;
 }
 .divLienFoot {
   height: 30px;
-}
-/* responsive */
-
-@media screen and (max-width: 1295px) {
-  .sizeLien12 {
-    margin-left: 35%;
-  }
-  .cubeDetailsHebergements {
-    min-height: 150px;
-  }
-  .sizeHebergements {
-    min-height: auto;
-    padding: 20px;
-  }
-  .sizePopulaires {
-    min-height: auto;
-    padding: 20px;
-  }
-  .tabletteSizeTitrePop {
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 990px) {
-  .mobileFiltreWrap {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .filtreTexteIcons {
-    margin-bottom: 20px;
-  }
-  #hebergements {
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-  .blocPopulaires {
-    flex: none;
-    width: 90%;
-    margin-left: 0;
-    padding: 5%;
-  }
-  .blocHebergements {
-    flex: none;
-    width: 90%;
-    margin-right: 0;
-    margin-top: 50px;
-    padding: 5%;
-  }
 }
