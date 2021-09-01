@@ -206,9 +206,7 @@ text-decoration: none ;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .PremièreligneHebergement {
-    margin-bottom: 10px;
-  }
+
   .bloc2 {
     margin-top: 10px;
   }
@@ -569,7 +567,7 @@ text-decoration: none ;
   }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 480px) {
   .flexWrap{
       order: 1 ;
       width : 100%;
